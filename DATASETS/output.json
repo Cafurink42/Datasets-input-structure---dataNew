@@ -1,47 +1,7 @@
 [
     {
-        "instruction": "teste",
+        "instruction": "Ol\u00e1, tudo bem com voc\u00ea? ",
         "input": "",
-        "output": "teste"
-    },
-    {
-        "instruction": "teste",
-        "input": "",
-        "output": "teste"
-    },
-    {
-        "instruction": "teste",
-        "input": "",
-        "output": "teste"
-    },
-    {
-        "instruction": "teste",
-        "input": "",
-        "output": "teste"
-    },
-    {
-        "instruction": "teste",
-        "input": "",
-        "output": "teste"
-    },
-    {
-        "instruction": "teste",
-        "input": "",
-        "output": "teste"
-    },
-    {
-        "instruction": "teste",
-        "input": "",
-        "output": "teste"
-    },
-    {
-        "instruction": "teste",
-        "input": "",
-        "output": "teste"
-    },
-    {
-        "instruction": "teste",
-        "input": "",
-        "output": "teste"
+        "output": "Ol\u00e1, tudo bem e como voc\u00ea est\u00e1? "
     }
 ]

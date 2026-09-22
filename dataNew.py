@@ -16,7 +16,10 @@ json_string = json.dumps(lista)
 
 json_string = [json.loads(i) for i in lista]
 
-with open("DATASETS/output.json", "w") as file:
-    json.dump(json_string, file, indent=4)
+with open("DATASETS/output.json", "w", encoding="utf-8") as file:
+    json.dump(json_string, file, indent=4, ensure_ascii=False)
+
+
+
     
 #{"instruction": "", "input":"", "output": ""}
