@@ -8,12 +8,12 @@ while True:
         break
     dataset = (f'{{"instruction": "{data01}", "input": "", "output": "{data02}"}}')
     lista.append(dataset)
+    print (f"Total de instruções:{(len(lista))}")
+    
 
     #dataset02 = (f'{{"instruction": "{data01}", "input": "", "output": "{data02}"}}')
 
-
 json_string = json.dumps(lista)
-
 json_string = [json.loads(i) for i in lista]
 
 with open("DATASETS/output.json", "w", encoding="utf-8") as file:
